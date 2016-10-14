@@ -1,0 +1,1 @@
+{"id":"bb60e3a1-753e-4618-9d3b-a767e240da64","name":"Test","model":{"processId":"invoices","taskId":"_214D8182-692C-4016-9885-BDD79CDFA8FA","taskName":"modify","variables":[{"name":"invoice","type":"demo.invoices.Invoice","inputMapping":"in_invoice","ouputMapping":"out_invoice"}],"formModelType":"org.kie.workbench.common.forms.jbpm.model.task.TaskFormModel"},"fields":[]}
