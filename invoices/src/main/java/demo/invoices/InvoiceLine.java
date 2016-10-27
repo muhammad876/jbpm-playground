@@ -9,61 +9,61 @@ public class InvoiceLine implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "Product")
-   private java.lang.Integer product;
-   @org.kie.api.definition.type.Label(value = "Quantity")
-   private java.lang.Integer quantity;
-   @org.kie.api.definition.type.Label(value = "Price")
-   private java.lang.Double price;
-   @org.kie.api.definition.type.Label(value = "Total")
-   private java.lang.Double total;
+   @org.kie.api.definition.type.Label("Product")
+   private String product;
+   @org.kie.api.definition.type.Label("Quantity")
+   private Integer quantity;
+   @org.kie.api.definition.type.Label("Price")
+   private Double price;
+   @org.kie.api.definition.type.Label("Total")
+   private Double total;
 
    public InvoiceLine()
    {
    }
 
-   public java.lang.Integer getProduct()
-   {
-      return this.product;
-   }
-
-   public void setProduct(java.lang.Integer product)
-   {
-      this.product = product;
-   }
-
-   public java.lang.Integer getQuantity()
+   public Integer getQuantity()
    {
       return this.quantity;
    }
 
-   public void setQuantity(java.lang.Integer quantity)
+   public void setQuantity(Integer quantity)
    {
       this.quantity = quantity;
    }
 
-   public java.lang.Double getPrice()
+   public Double getPrice()
    {
       return this.price;
    }
 
-   public void setPrice(java.lang.Double price)
+   public void setPrice(Double price)
    {
       this.price = price;
    }
 
-   public java.lang.Double getTotal()
+   public Double getTotal()
    {
       return this.total;
    }
 
-   public void setTotal(java.lang.Double total)
+   public void setTotal(Double total)
    {
       this.total = total;
    }
 
-   public InvoiceLine(java.lang.Integer product, java.lang.Integer quantity,
-         java.lang.Double price, java.lang.Double total)
+   public String getProduct()
+   {
+      return this.product;
+   }
+
+   public void setProduct(String product)
+   {
+      this.product = product;
+   }
+
+   public InvoiceLine(String product, Integer quantity,
+         Double price, Double total)
    {
       this.product = product;
       this.quantity = quantity;

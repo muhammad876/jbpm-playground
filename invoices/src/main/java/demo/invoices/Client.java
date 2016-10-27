@@ -10,48 +10,48 @@ public class Client implements java.io.Serializable
    static final long serialVersionUID = 1L;
 
    @org.kie.api.definition.type.Label(value = "ID")
-   private java.lang.Long id;
+   private Long id;
    @org.kie.api.definition.type.Label(value = "Name")
-   private java.lang.String name;
+   private String name;
    @org.kie.api.definition.type.Label(value = "Address")
-   private java.lang.String address;
+   private String address;
 
    public Client()
    {
    }
 
-   public java.lang.Long getId()
+   public Long getId()
    {
       return this.id;
    }
 
-   public void setId(java.lang.Long id)
+   public void setId(Long id)
    {
       this.id = id;
    }
 
-   public java.lang.String getName()
+   public String getName()
    {
       return this.name;
    }
 
-   public void setName(java.lang.String name)
+   public void setName(String name)
    {
       this.name = name;
    }
 
-   public java.lang.String getAddress()
+   public String getAddress()
    {
       return this.address;
    }
 
-   public void setAddress(java.lang.String address)
+   public void setAddress(String address)
    {
       this.address = address;
    }
 
-   public Client(java.lang.Long id, java.lang.String name,
-         java.lang.String address)
+   public Client(Long id, String name,
+         String address)
    {
       this.id = id;
       this.name = name;

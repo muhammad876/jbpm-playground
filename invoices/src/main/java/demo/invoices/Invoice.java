@@ -12,13 +12,13 @@ public class Invoice implements java.io.Serializable
    @org.kie.api.definition.type.Label(value = "Date")
    private java.util.Date date;
    @org.kie.api.definition.type.Label(value = "Comments")
-   private java.lang.String comments;
+   private String comments;
    @org.kie.api.definition.type.Label(value = "client")
-   private demo.invoices.Client client;
+   private Client client;
    @org.kie.api.definition.type.Label(value = "Lines")
-   private java.util.List<demo.invoices.InvoiceLine> lines;
+   private java.util.List<InvoiceLine> lines;
    @org.kie.api.definition.type.Label(value = "Total")
-   private java.lang.Double total;
+   private Double total;
 
    public Invoice()
    {
@@ -34,50 +34,50 @@ public class Invoice implements java.io.Serializable
       this.date = date;
    }
 
-   public java.lang.String getComments()
+   public String getComments()
    {
       return this.comments;
    }
 
-   public void setComments(java.lang.String comments)
+   public void setComments(String comments)
    {
       this.comments = comments;
    }
 
-   public demo.invoices.Client getClient()
+   public Client getClient()
    {
       return this.client;
    }
 
-   public void setClient(demo.invoices.Client client)
+   public void setClient(Client client)
    {
       this.client = client;
    }
 
-   public java.util.List<demo.invoices.InvoiceLine> getLines()
+   public java.util.List<InvoiceLine> getLines()
    {
       return this.lines;
    }
 
-   public void setLines(java.util.List<demo.invoices.InvoiceLine> lines)
+   public void setLines(java.util.List<InvoiceLine> lines)
    {
       this.lines = lines;
    }
 
-   public java.lang.Double getTotal()
+   public Double getTotal()
    {
       return this.total;
    }
 
-   public void setTotal(java.lang.Double total)
+   public void setTotal(Double total)
    {
       this.total = total;
    }
 
-   public Invoice(java.util.Date date, java.lang.String comments,
-         demo.invoices.Client client,
-         java.util.List<demo.invoices.InvoiceLine> lines,
-         java.lang.Double total)
+   public Invoice(java.util.Date date, String comments,
+         Client client,
+         java.util.List<InvoiceLine> lines,
+         Double total)
    {
       this.date = date;
       this.comments = comments;
