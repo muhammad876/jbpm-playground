@@ -1,0 +1,56 @@
+
+<form id="1634631252">
+<property name="name" value="com.sample.evaluation-taskform"/>
+<property name="displayMode" value="default"/>
+<property name="labelMode" value="undefined"/>
+<property name="status" value="0"/>
+<field position="0" name="301394101" type="InputText" id="301394101">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;Employeequot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="outputBinding" value="employee"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="1698224711" type="InputTextArea" id="1698224711">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="height" value="3"/>
+<property name="label" value="quot;enquot;,quot;Reasonquot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="reason"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="constant" type="InputText" id="1269756236">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;constant (constant)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="constant"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="initiator" type="InputText" id="705238827">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;initiator (initiator)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="initiator"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="performance" type="InputText" id="602773836">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;performance (performance)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="performance"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="constant" value="java.lang.String" id="constant"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="employee" value="java.lang.String" id="employee"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="initiator" value="java.lang.String" id="initiator"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="performance" value="java.lang.String" id="performance"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="reason" value="java.lang.String" id="reason"/>
+</form>
