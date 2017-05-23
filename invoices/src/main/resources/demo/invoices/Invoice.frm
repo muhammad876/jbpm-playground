@@ -34,7 +34,7 @@
       "validateOnChange": true,
       "binding": "client",
       "standaloneClassName": "demo.invoices.Client",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.relations.SubFormFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.relations.subForm.definition.SubFormFieldDefinition"
     },
     {
       "placeHolder": "Date",
@@ -82,7 +82,7 @@
       "validateOnChange": true,
       "binding": "lines",
       "standaloneClassName": "demo.invoices.InvoiceLine",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.relations.MultipleSubFormFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.relations.multipleSubform.definition.MultipleSubFormFieldDefinition"
     },
     {
       "maxLength": 100,

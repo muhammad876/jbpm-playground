@@ -34,7 +34,7 @@
       "validateOnChange": true,
       "binding": "invoice",
       "standaloneClassName": "demo.invoices.Invoice",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.relations.SubFormFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.relations.subForm.definition.SubFormFieldDefinition"
     },
     {
       "annotatedId": false,
