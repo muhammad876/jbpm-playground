@@ -16,6 +16,7 @@
   </repositories>
 
   <dependencies>
+    <!--
     <dependency>
       <groupId>javax.validation</groupId>
       <artifactId>validation-api</artifactId>
@@ -25,7 +26,7 @@
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-validator</artifactId>
       <version>4.1.0.Final</version>
-    </dependency>
+    </dependency>-->
   </dependencies>
   <build>
     <plugins>

@@ -5,6 +5,7 @@
     "processId": "invoices",
     "taskId": "_214D8182-692C-4016-9885-BDD79CDFA8FA",
     "taskName": "modify",
+    "formName": "modify",
     "variables": [
       {
         "name": "attachment",

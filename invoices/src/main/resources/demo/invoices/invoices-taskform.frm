@@ -4,6 +4,7 @@
   "model": {
     "processId": "invoices",
     "processName": "invoices",
+    "formName": "invoices",
     "variables": [
       {
         "name": "invoice",
