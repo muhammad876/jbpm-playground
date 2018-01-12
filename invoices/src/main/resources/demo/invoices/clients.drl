@@ -1,0 +1,14 @@
+package demo.invoices;
+
+import demo.invoices.Client
+
+rule "Barcelona Clients"
+    when
+        client : Client( address == "Barcelona" )
+    then
+        System.out.println("##############################");
+        System.out.println("##############################");
+        System.out.println("Client: " + client.getName());
+        System.out.println("##############################");
+        System.out.println("##############################");
+end
