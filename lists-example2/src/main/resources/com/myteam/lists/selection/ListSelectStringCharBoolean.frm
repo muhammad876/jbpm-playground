@@ -186,7 +186,16 @@
   },
   "fields": [
     {
-      "pageSize": 5,
+      "listOfValues": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "id": "field_4144",
       "name": "listOfStrings",
       "label": "ListOfStrings",
@@ -196,11 +205,20 @@
       "helpMessage": "",
       "binding": "listOfStrings",
       "standaloneClassName": "java.lang.String",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.StringLOVInputFieldDefinition"
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.StringLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
+      "listOfValues": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "id": "field_8325",
       "name": "listOfCharacters",
       "label": "ListOfCharacters",
@@ -210,11 +228,18 @@
       "helpMessage": "",
       "binding": "listOfCharacters",
       "standaloneClassName": "java.lang.Character",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.CharacterLOVInputFieldDefinition"
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.CharacterLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
+      "listOfValues": [
+        true,
+        false
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "id": "field_8237",
       "name": "listOfBooleans",
       "label": "ListOfBooleans",
@@ -224,8 +249,8 @@
       "helpMessage": "",
       "binding": "listOfBooleans",
       "standaloneClassName": "java.lang.Boolean",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.BooleanLOVInputFieldDefinition"
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.BooleanLOVFieldDefinition"
     }
   ],
   "layoutTemplate": {

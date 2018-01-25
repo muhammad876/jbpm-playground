@@ -186,8 +186,16 @@
   },
   "fields": [
     {
-      "pageSize": 5,
-      "id": "field_9001",
+      "listOfValues": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "name": "listOfBigDecimals",
       "label": "ListOfBigDecimals",
       "required": false,
@@ -196,12 +204,21 @@
       "helpMessage": "",
       "binding": "listOfBigDecimals",
       "standaloneClassName": "java.math.BigDecimal",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DecimalLOVInputFieldDefinition"
+      "id": "field_9001",
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DecimalLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
-      "id": "field_97974",
+      "listOfValues": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "name": "listOfDoubles",
       "label": "ListOfDoubles",
       "required": false,
@@ -210,12 +227,21 @@
       "helpMessage": "",
       "binding": "listOfDoubles",
       "standaloneClassName": "java.lang.Double",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DecimalLOVInputFieldDefinition"
+      "id": "field_97974",
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DecimalLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
-      "id": "field_92523",
+      "listOfValues": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "name": "listOfFloats",
       "label": "ListOfFloats",
       "required": false,
@@ -224,8 +250,9 @@
       "helpMessage": "",
       "binding": "listOfFloats",
       "standaloneClassName": "java.lang.Float",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DecimalLOVInputFieldDefinition"
+      "id": "field_92523",
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DecimalLOVFieldDefinition"
     }
   ],
   "layoutTemplate": {

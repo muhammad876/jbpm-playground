@@ -186,8 +186,16 @@
   },
   "fields": [
     {
-      "pageSize": 5,
-      "id": "field_79028",
+      "listOfValues": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "name": "listOfIntegers",
       "label": "ListOfIntegers",
       "required": false,
@@ -196,11 +204,21 @@
       "helpMessage": "",
       "binding": "listOfIntegers",
       "standaloneClassName": "java.lang.Integer",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerLOVInputFieldDefinition"
+      "id": "field_79028",
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
+      "listOfValues": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "id": "field_3123",
       "name": "listOfBigIntegers",
       "label": "ListOfBigIntegers",
@@ -210,11 +228,20 @@
       "helpMessage": "",
       "binding": "listOfBigIntegers",
       "standaloneClassName": "java.math.BigInteger",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerLOVInputFieldDefinition"
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
+      "listOfValues": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "id": "field_6197",
       "name": "listOfBytes",
       "label": "ListOfBytes",
@@ -224,11 +251,20 @@
       "helpMessage": "",
       "binding": "listOfBytes",
       "standaloneClassName": "java.lang.Byte",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerLOVInputFieldDefinition"
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
+      "listOfValues": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "id": "field_768",
       "name": "listOfLong",
       "label": "ListOfLong",
@@ -238,11 +274,20 @@
       "helpMessage": "",
       "binding": "listOfLong",
       "standaloneClassName": "java.lang.Long",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerLOVInputFieldDefinition"
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
+      "listOfValues": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "id": "field_6195",
       "name": "listOfShort",
       "label": "ListOfShort",
@@ -252,8 +297,8 @@
       "helpMessage": "",
       "binding": "listOfShort",
       "standaloneClassName": "java.lang.Short",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerLOVInputFieldDefinition"
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
     }
   ],
   "layoutTemplate": {

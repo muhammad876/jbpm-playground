@@ -186,8 +186,16 @@
   },
   "fields": [
     {
-      "pageSize": 5,
-      "id": "field_1683",
+      "listOfValues": [
+        "Jan 1, 2018 4:40:00 PM",
+        "Jan 2, 2018 4:40:00 PM",
+        "Jan 3, 2018 4:40:00 PM",
+        "Jan 4, 2018 4:40:00 PM"
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "name": "listOfDates",
       "label": "ListOfDates",
       "required": false,
@@ -196,40 +204,65 @@
       "helpMessage": "",
       "binding": "listOfDates",
       "standaloneClassName": "java.util.Date",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateLOVInputFieldDefinition"
+      "id": "field_1683",
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
-      "id": "field_5392",
+      "listOfValues": [
+        "Jan 1, 2018 4:40:00 PM",
+        "Jan 2, 2018 4:40:00 PM",
+        "Jan 3, 2018 4:40:00 PM",
+        "Jan 4, 2018 4:40:00 PM"
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "name": "listOfLocalDate",
       "label": "ListOfLocalDate",
       "required": false,
       "readOnly": false,
       "validateOnChange": true,
       "helpMessage": "",
-      "binding": "listOfLocalDate",
       "standaloneClassName": "java.time.LocalDate",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateLOVInputFieldDefinition"
+      "id": "field_5392",
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
-      "id": "field_85",
+      "listOfValues": [
+        "Jan 1, 2018 4:40:00 PM",
+        "Jan 2, 2018 4:40:00 PM",
+        "Jan 3, 2018 4:40:00 PM",
+        "Jan 4, 2018 4:40:00 PM"
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "name": "listOfLocalDateTiime",
       "label": "ListOfLocalDateTiime",
       "required": false,
       "readOnly": false,
       "validateOnChange": true,
       "helpMessage": "",
-      "binding": "listOfLocalDateTiime",
       "standaloneClassName": "java.time.LocalDateTime",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateLOVInputFieldDefinition"
+      "id": "field_85",
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
-      "id": "field_0972",
+      "listOfValues": [
+        "Jan 1, 2018 4:40:00 PM",
+        "Jan 2, 2018 4:40:00 PM",
+        "Jan 3, 2018 4:40:00 PM",
+        "Jan 4, 2018 4:40:00 PM"
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "name": "listOfLocalTime",
       "label": "ListOfLocalTime",
       "required": false,
@@ -238,12 +271,21 @@
       "helpMessage": "",
       "binding": "listOfLocalTime",
       "standaloneClassName": "java.time.LocalTime",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateLOVInputFieldDefinition"
+      "id": "field_0972",
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
-      "id": "field_7954",
+      "listOfValues": [
+        "Jan 1, 2018 4:40:00 PM",
+        "Jan 2, 2018 4:40:00 PM",
+        "Jan 3, 2018 4:40:00 PM",
+        "Jan 4, 2018 4:40:00 PM"
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "name": "listOfOffsetDateTIme",
       "label": "ListOfOffsetDateTIme",
       "required": false,
@@ -252,8 +294,9 @@
       "helpMessage": "",
       "binding": "listOfOffsetDateTIme",
       "standaloneClassName": "java.time.OffsetDateTime",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateLOVInputFieldDefinition"
+      "id": "field_7954",
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
     }
   ],
   "layoutTemplate": {

@@ -186,7 +186,16 @@
   },
   "fields": [
     {
-      "pageSize": 5,
+      "listOfValues": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "id": "field_0791",
       "name": "listOfStrings",
       "label": "ListOfStrings",
@@ -196,11 +205,20 @@
       "helpMessage": "",
       "binding": "listOfStrings",
       "standaloneClassName": "java.lang.String",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.StringLOVInputFieldDefinition"
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.StringLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
+      "listOfValues": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "id": "field_77007",
       "name": "listOfCharacters",
       "label": "ListOfCharacters",
@@ -210,11 +228,18 @@
       "helpMessage": "",
       "binding": "listOfCharacters",
       "standaloneClassName": "java.lang.Character",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.CharacterLOVInputFieldDefinition"
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.CharacterLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
+      "listOfValues": [
+        true,
+        false
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "id": "field_8416",
       "name": "listOfBooleans",
       "label": "ListOfBooleans",
@@ -224,11 +249,20 @@
       "helpMessage": "",
       "binding": "listOfBooleans",
       "standaloneClassName": "java.lang.Boolean",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.BooleanLOVInputFieldDefinition"
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.BooleanLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
+      "listOfValues": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "id": "field_4895",
       "name": "listOfIntegers",
       "label": "ListOfIntegers",
@@ -238,11 +272,20 @@
       "helpMessage": "",
       "binding": "listOfIntegers",
       "standaloneClassName": "java.lang.Integer",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerLOVInputFieldDefinition"
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
+      "listOfValues": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "id": "field_8662",
       "name": "listOfBigIntegers",
       "label": "ListOfBigIntegers",
@@ -252,11 +295,20 @@
       "helpMessage": "",
       "binding": "listOfBigIntegers",
       "standaloneClassName": "java.math.BigInteger",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerLOVInputFieldDefinition"
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
+      "listOfValues": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "id": "field_6572",
       "name": "listOfBytes",
       "label": "ListOfBytes",
@@ -266,11 +318,20 @@
       "helpMessage": "",
       "binding": "listOfBytes",
       "standaloneClassName": "java.lang.Byte",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerLOVInputFieldDefinition"
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
+      "listOfValues": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "id": "field_3491",
       "name": "listOfLong",
       "label": "ListOfLong",
@@ -280,11 +341,20 @@
       "helpMessage": "",
       "binding": "listOfLong",
       "standaloneClassName": "java.lang.Long",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerLOVInputFieldDefinition"
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
+      "listOfValues": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "id": "field_810825",
       "name": "listOfShort",
       "label": "ListOfShort",
@@ -294,11 +364,20 @@
       "helpMessage": "",
       "binding": "listOfShort",
       "standaloneClassName": "java.lang.Short",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerLOVInputFieldDefinition"
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
+      "listOfValues": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "id": "field_54911",
       "name": "listOfBigDecimals",
       "label": "ListOfBigDecimals",
@@ -308,11 +387,20 @@
       "helpMessage": "",
       "binding": "listOfBigDecimals",
       "standaloneClassName": "java.math.BigDecimal",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DecimalLOVInputFieldDefinition"
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DecimalLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
+      "listOfValues": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "id": "field_1935",
       "name": "listOfDoubles",
       "label": "ListOfDoubles",
@@ -322,11 +410,20 @@
       "helpMessage": "",
       "binding": "listOfDoubles",
       "standaloneClassName": "java.lang.Double",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DecimalLOVInputFieldDefinition"
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DecimalLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
+      "listOfValues": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "id": "field_38776",
       "name": "listOfFloats",
       "label": "ListOfFloats",
@@ -336,12 +433,20 @@
       "helpMessage": "",
       "binding": "listOfFloats",
       "standaloneClassName": "java.lang.Float",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DecimalLOVInputFieldDefinition"
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DecimalLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
-      "id": "field_2835",
+      "listOfValues": [
+        "Jan 1, 2018 4:40:00 PM",
+        "Jan 2, 2018 4:40:00 PM",
+        "Jan 3, 2018 4:40:00 PM",
+        "Jan 4, 2018 4:40:00 PM"
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "name": "listOfDates",
       "label": "ListOfDates",
       "required": false,
@@ -350,11 +455,21 @@
       "helpMessage": "",
       "binding": "listOfDates",
       "standaloneClassName": "java.util.Date",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateLOVInputFieldDefinition"
+      "id": "field_2835",
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
+      "listOfValues": [
+        "Jan 1, 2018 4:40:00 PM",
+        "Jan 2, 2018 4:40:00 PM",
+        "Jan 3, 2018 4:40:00 PM",
+        "Jan 4, 2018 4:40:00 PM"
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "id": "field_4253",
       "name": "listOfLocalDate",
       "label": "ListOfLocalDate",
@@ -364,11 +479,20 @@
       "helpMessage": "",
       "binding": "listOfLocalDate",
       "standaloneClassName": "java.time.LocalDate",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateLOVInputFieldDefinition"
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
+      "listOfValues": [
+        "Jan 1, 2018 4:40:00 PM",
+        "Jan 2, 2018 4:40:00 PM",
+        "Jan 3, 2018 4:40:00 PM",
+        "Jan 4, 2018 4:40:00 PM"
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "id": "field_2147",
       "name": "listOfLocalDateTiime",
       "label": "ListOfLocalDateTiime",
@@ -378,11 +502,20 @@
       "helpMessage": "",
       "binding": "listOfLocalDateTiime",
       "standaloneClassName": "java.time.LocalDateTime",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateLOVInputFieldDefinition"
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
+      "listOfValues": [
+        "Jan 1, 2018 4:40:00 PM",
+        "Jan 2, 2018 4:40:00 PM",
+        "Jan 3, 2018 4:40:00 PM",
+        "Jan 4, 2018 4:40:00 PM"
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "id": "field_1227",
       "name": "listOfLocalTime",
       "label": "ListOfLocalTime",
@@ -392,11 +525,20 @@
       "helpMessage": "",
       "binding": "listOfLocalTime",
       "standaloneClassName": "java.time.LocalTime",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateLOVInputFieldDefinition"
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
     },
     {
-      "pageSize": 5,
+      "listOfValues": [
+        "Jan 1, 2018 4:40:00 PM",
+        "Jan 2, 2018 4:40:00 PM",
+        "Jan 3, 2018 4:40:00 PM",
+        "Jan 4, 2018 4:40:00 PM"
+      ],
+      "maxDropdownElements": 10,
+      "maxElementsOnTitle": 5,
+      "allowFilter": true,
+      "allowClearSelection": true,
       "id": "field_0154",
       "name": "listOfOffsetDateTIme",
       "label": "ListOfOffsetDateTIme",
@@ -406,8 +548,8 @@
       "helpMessage": "",
       "binding": "listOfOffsetDateTIme",
       "standaloneClassName": "java.time.OffsetDateTime",
-      "code": "LOVInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateLOVInputFieldDefinition"
+      "code": "LOVSelection",
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
     }
   ],
   "layoutTemplate": {
