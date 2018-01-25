@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:color="http://www.omg.org/spec/BPMN/non-normative/color" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_CdY5IAHbEeivuLvr3kMGPw" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd" exporter="jBPM Designer" exporterVersion="6.2.0" expressionLanguage="http://www.mvel.org/2.0" targetNamespace="http://www.omg.org/bpmn20" typeLanguage="http://www.java.com/javaTypes">
+  <bpmn2:itemDefinition id="_listsItem" structureRef="com.myteam.lists.Lists"/>
+  <bpmn2:itemDefinition id="__09BF4DE1-9A9B-4964-8718-9A73F688E9FE_TaskNameInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__09BF4DE1-9A9B-4964-8718-9A73F688E9FE_listsInputXItem" structureRef="com.myteam.lists.Lists"/>
+  <bpmn2:itemDefinition id="__09BF4DE1-9A9B-4964-8718-9A73F688E9FE_SkippableInputXItem" structureRef="Object"/>
+  <bpmn2:itemDefinition id="__09BF4DE1-9A9B-4964-8718-9A73F688E9FE_listsOutputXItem" structureRef="com.myteam.lists.Lists"/>
+  <bpmn2:itemDefinition id="__7F8BADB8-90B7-41FD-8FE9-44373F358A35_TaskNameInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__7F8BADB8-90B7-41FD-8FE9-44373F358A35_listsInputXItem" structureRef="com.myteam.lists.Lists"/>
+  <bpmn2:itemDefinition id="__7F8BADB8-90B7-41FD-8FE9-44373F358A35_SkippableInputXItem" structureRef="Object"/>
+  <bpmn2:itemDefinition id="__7F8BADB8-90B7-41FD-8FE9-44373F358A35_listsOutputXItem" structureRef="com.myteam.lists.Lists"/>
+  <bpmn2:itemDefinition id="__CE1F9291-085D-46DE-ABDB-77CF1B333391_TaskNameInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__CE1F9291-085D-46DE-ABDB-77CF1B333391_listsInputXItem" structureRef="com.myteam.lists.Lists"/>
+  <bpmn2:itemDefinition id="__CE1F9291-085D-46DE-ABDB-77CF1B333391_SkippableInputXItem" structureRef="Object"/>
+  <bpmn2:itemDefinition id="__CE1F9291-085D-46DE-ABDB-77CF1B333391_listsOutputXItem" structureRef="com.myteam.lists.Lists"/>
+  <bpmn2:itemDefinition id="__E7B9BB71-6A2D-491F-A697-F61975A4273A_TaskNameInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__E7B9BB71-6A2D-491F-A697-F61975A4273A_listsInputXItem" structureRef="com.myteam.lists.Lists"/>
+  <bpmn2:itemDefinition id="__E7B9BB71-6A2D-491F-A697-F61975A4273A_SkippableInputXItem" structureRef="Object"/>
+  <bpmn2:itemDefinition id="__E7B9BB71-6A2D-491F-A697-F61975A4273A_listsOutputXItem" structureRef="com.myteam.lists.Lists"/>
+  <bpmn2:itemDefinition id="__146470E0-FB05-4A52-B6A0-604F0A270153_TaskNameInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__146470E0-FB05-4A52-B6A0-604F0A270153_listsInputXItem" structureRef="com.myteam.lists.Lists"/>
+  <bpmn2:itemDefinition id="__146470E0-FB05-4A52-B6A0-604F0A270153_SkippableInputXItem" structureRef="Object"/>
+  <bpmn2:itemDefinition id="__146470E0-FB05-4A52-B6A0-604F0A270153_listsOutputXItem" structureRef="com.myteam.lists.Lists"/>
+  <bpmn2:process id="CreationListsProcess" drools:packageName="com.myteam.lists" drools:version="1.0" name="CreationListsProcess" isExecutable="true">
+    <bpmn2:property id="lists" itemSubjectRef="_listsItem"/>
+    <bpmn2:startEvent id="processStartEvent" drools:selectable="true" color:background-color="#9acd32" color:border-color="#000000" color:color="#000000" name="">
+      <bpmn2:extensionElements>
+        <drools:metaData name="elementname">
+          <drools:metaValue><![CDATA[]]></drools:metaValue>
+        </drools:metaData>
+      </bpmn2:extensionElements>
+      <bpmn2:outgoing>_8CEBA2CB-6F1E-46D1-841C-D4F7753D61C8</bpmn2:outgoing>
+    </bpmn2:startEvent>
+    <bpmn2:userTask id="_09BF4DE1-9A9B-4964-8718-9A73F688E9FE" drools:selectable="true" drools:scriptFormat="http://www.java.com/java" color:background-color="#fafad2" color:border-color="#000000" color:color="#000000" name="CreateStrings">
+      <bpmn2:extensionElements>
+        <drools:metaData name="elementname">
+          <drools:metaValue><![CDATA[CreateStrings]]></drools:metaValue>
+        </drools:metaData>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>_8CEBA2CB-6F1E-46D1-841C-D4F7753D61C8</bpmn2:incoming>
+      <bpmn2:outgoing>_872E7E5A-4C9B-44F3-8B4C-B942B8E0C4DF</bpmn2:outgoing>
+      <bpmn2:ioSpecification id="_CdY5IQHbEeivuLvr3kMGPw">
+        <bpmn2:dataInput id="_09BF4DE1-9A9B-4964-8718-9A73F688E9FE_TaskNameInputX" drools:dtype="String" itemSubjectRef="__09BF4DE1-9A9B-4964-8718-9A73F688E9FE_TaskNameInputXItem" name="TaskName"/>
+        <bpmn2:dataInput id="_09BF4DE1-9A9B-4964-8718-9A73F688E9FE_listsInputX" drools:dtype="com.myteam.lists.Lists" itemSubjectRef="__09BF4DE1-9A9B-4964-8718-9A73F688E9FE_listsInputXItem" name="lists"/>
+        <bpmn2:dataInput id="_09BF4DE1-9A9B-4964-8718-9A73F688E9FE_SkippableInputX" drools:dtype="Object" itemSubjectRef="__09BF4DE1-9A9B-4964-8718-9A73F688E9FE_SkippableInputXItem" name="Skippable"/>
+        <bpmn2:dataOutput id="_09BF4DE1-9A9B-4964-8718-9A73F688E9FE_listsOutputX" drools:dtype="com.myteam.lists.Lists" itemSubjectRef="__09BF4DE1-9A9B-4964-8718-9A73F688E9FE_listsOutputXItem" name="lists"/>
+        <bpmn2:inputSet id="_CdY5IgHbEeivuLvr3kMGPw">
+          <bpmn2:dataInputRefs>_09BF4DE1-9A9B-4964-8718-9A73F688E9FE_listsInputX</bpmn2:dataInputRefs>
+          <bpmn2:dataInputRefs>_09BF4DE1-9A9B-4964-8718-9A73F688E9FE_SkippableInputX</bpmn2:dataInputRefs>
+          <bpmn2:dataInputRefs>_09BF4DE1-9A9B-4964-8718-9A73F688E9FE_TaskNameInputX</bpmn2:dataInputRefs>
+        </bpmn2:inputSet>
+        <bpmn2:outputSet id="_CdY5IwHbEeivuLvr3kMGPw">
+          <bpmn2:dataOutputRefs>_09BF4DE1-9A9B-4964-8718-9A73F688E9FE_listsOutputX</bpmn2:dataOutputRefs>
+        </bpmn2:outputSet>
+      </bpmn2:ioSpecification>
+      <bpmn2:dataInputAssociation id="_CdY5JAHbEeivuLvr3kMGPw">
+        <bpmn2:targetRef>_09BF4DE1-9A9B-4964-8718-9A73F688E9FE_TaskNameInputX</bpmn2:targetRef>
+        <bpmn2:assignment id="_CdY5JQHbEeivuLvr3kMGPw">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_CdY5JgHbEeivuLvr3kMGPw"><![CDATA[CreateStrings]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_CdY5JwHbEeivuLvr3kMGPw">_09BF4DE1-9A9B-4964-8718-9A73F688E9FE_TaskNameInputX</bpmn2:to>
+        </bpmn2:assignment>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataInputAssociation id="_CdY5KAHbEeivuLvr3kMGPw">
+        <bpmn2:sourceRef>lists</bpmn2:sourceRef>
+        <bpmn2:targetRef>_09BF4DE1-9A9B-4964-8718-9A73F688E9FE_listsInputX</bpmn2:targetRef>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataInputAssociation id="_CdY5KQHbEeivuLvr3kMGPw">
+        <bpmn2:targetRef>_09BF4DE1-9A9B-4964-8718-9A73F688E9FE_SkippableInputX</bpmn2:targetRef>
+        <bpmn2:assignment id="_CdY5KgHbEeivuLvr3kMGPw">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_CdY5KwHbEeivuLvr3kMGPw">true</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_CdY5LAHbEeivuLvr3kMGPw">_09BF4DE1-9A9B-4964-8718-9A73F688E9FE_SkippableInputX</bpmn2:to>
+        </bpmn2:assignment>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataOutputAssociation id="_CdY5LQHbEeivuLvr3kMGPw">
+        <bpmn2:sourceRef>_09BF4DE1-9A9B-4964-8718-9A73F688E9FE_listsOutputX</bpmn2:sourceRef>
+        <bpmn2:targetRef>lists</bpmn2:targetRef>
+      </bpmn2:dataOutputAssociation>
+      <bpmn2:potentialOwner id="_CdY5LgHbEeivuLvr3kMGPw">
+        <bpmn2:resourceAssignmentExpression id="_CdY5LwHbEeivuLvr3kMGPw">
+          <bpmn2:formalExpression id="_CdY5MAHbEeivuLvr3kMGPw">katy</bpmn2:formalExpression>
+        </bpmn2:resourceAssignmentExpression>
+      </bpmn2:potentialOwner>
+    </bpmn2:userTask>
+    <bpmn2:sequenceFlow id="_8CEBA2CB-6F1E-46D1-841C-D4F7753D61C8" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="processStartEvent" targetRef="_09BF4DE1-9A9B-4964-8718-9A73F688E9FE"/>
+    <bpmn2:userTask id="_7F8BADB8-90B7-41FD-8FE9-44373F358A35" drools:selectable="true" drools:scriptFormat="http://www.java.com/java" color:background-color="#fafad2" color:border-color="#000000" color:color="#000000" name="CreateInts">
+      <bpmn2:extensionElements>
+        <drools:metaData name="elementname">
+          <drools:metaValue><![CDATA[CreateInts]]></drools:metaValue>
+        </drools:metaData>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>_872E7E5A-4C9B-44F3-8B4C-B942B8E0C4DF</bpmn2:incoming>
+      <bpmn2:outgoing>_BB16F39D-011B-4DCB-B51D-98660336D141</bpmn2:outgoing>
+      <bpmn2:ioSpecification id="_CdY5MQHbEeivuLvr3kMGPw">
+        <bpmn2:dataInput id="_7F8BADB8-90B7-41FD-8FE9-44373F358A35_TaskNameInputX" drools:dtype="String" itemSubjectRef="__7F8BADB8-90B7-41FD-8FE9-44373F358A35_TaskNameInputXItem" name="TaskName"/>
+        <bpmn2:dataInput id="_7F8BADB8-90B7-41FD-8FE9-44373F358A35_listsInputX" drools:dtype="com.myteam.lists.Lists" itemSubjectRef="__7F8BADB8-90B7-41FD-8FE9-44373F358A35_listsInputXItem" name="lists"/>
+        <bpmn2:dataInput id="_7F8BADB8-90B7-41FD-8FE9-44373F358A35_SkippableInputX" drools:dtype="Object" itemSubjectRef="__7F8BADB8-90B7-41FD-8FE9-44373F358A35_SkippableInputXItem" name="Skippable"/>
+        <bpmn2:dataOutput id="_7F8BADB8-90B7-41FD-8FE9-44373F358A35_listsOutputX" drools:dtype="com.myteam.lists.Lists" itemSubjectRef="__7F8BADB8-90B7-41FD-8FE9-44373F358A35_listsOutputXItem" name="lists"/>
+        <bpmn2:inputSet id="_CdZgMAHbEeivuLvr3kMGPw">
+          <bpmn2:dataInputRefs>_7F8BADB8-90B7-41FD-8FE9-44373F358A35_listsInputX</bpmn2:dataInputRefs>
+          <bpmn2:dataInputRefs>_7F8BADB8-90B7-41FD-8FE9-44373F358A35_SkippableInputX</bpmn2:dataInputRefs>
+          <bpmn2:dataInputRefs>_7F8BADB8-90B7-41FD-8FE9-44373F358A35_TaskNameInputX</bpmn2:dataInputRefs>
+        </bpmn2:inputSet>
+        <bpmn2:outputSet id="_CdZgMQHbEeivuLvr3kMGPw">
+          <bpmn2:dataOutputRefs>_7F8BADB8-90B7-41FD-8FE9-44373F358A35_listsOutputX</bpmn2:dataOutputRefs>
+        </bpmn2:outputSet>
+      </bpmn2:ioSpecification>
+      <bpmn2:dataInputAssociation id="_CdZgMgHbEeivuLvr3kMGPw">
+        <bpmn2:targetRef>_7F8BADB8-90B7-41FD-8FE9-44373F358A35_TaskNameInputX</bpmn2:targetRef>
+        <bpmn2:assignment id="_CdZgMwHbEeivuLvr3kMGPw">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_CdZgNAHbEeivuLvr3kMGPw"><![CDATA[CreateInts]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_CdZgNQHbEeivuLvr3kMGPw">_7F8BADB8-90B7-41FD-8FE9-44373F358A35_TaskNameInputX</bpmn2:to>
+        </bpmn2:assignment>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataInputAssociation id="_CdZgNgHbEeivuLvr3kMGPw">
+        <bpmn2:sourceRef>lists</bpmn2:sourceRef>
+        <bpmn2:targetRef>_7F8BADB8-90B7-41FD-8FE9-44373F358A35_listsInputX</bpmn2:targetRef>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataInputAssociation id="_CdZgNwHbEeivuLvr3kMGPw">
+        <bpmn2:targetRef>_7F8BADB8-90B7-41FD-8FE9-44373F358A35_SkippableInputX</bpmn2:targetRef>
+        <bpmn2:assignment id="_CdZgOAHbEeivuLvr3kMGPw">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_CdZgOQHbEeivuLvr3kMGPw">true</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_CdZgOgHbEeivuLvr3kMGPw">_7F8BADB8-90B7-41FD-8FE9-44373F358A35_SkippableInputX</bpmn2:to>
+        </bpmn2:assignment>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataOutputAssociation id="_CdZgOwHbEeivuLvr3kMGPw">
+        <bpmn2:sourceRef>_7F8BADB8-90B7-41FD-8FE9-44373F358A35_listsOutputX</bpmn2:sourceRef>
+        <bpmn2:targetRef>lists</bpmn2:targetRef>
+      </bpmn2:dataOutputAssociation>
+      <bpmn2:potentialOwner id="_CdZgPAHbEeivuLvr3kMGPw">
+        <bpmn2:resourceAssignmentExpression id="_CdZgPQHbEeivuLvr3kMGPw">
+          <bpmn2:formalExpression id="_CdZgPgHbEeivuLvr3kMGPw">katy</bpmn2:formalExpression>
+        </bpmn2:resourceAssignmentExpression>
+      </bpmn2:potentialOwner>
+    </bpmn2:userTask>
+    <bpmn2:sequenceFlow id="_872E7E5A-4C9B-44F3-8B4C-B942B8E0C4DF" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_09BF4DE1-9A9B-4964-8718-9A73F688E9FE" targetRef="_7F8BADB8-90B7-41FD-8FE9-44373F358A35"/>
+    <bpmn2:userTask id="_CE1F9291-085D-46DE-ABDB-77CF1B333391" drools:selectable="true" drools:scriptFormat="http://www.java.com/java" color:background-color="#fafad2" color:border-color="#000000" color:color="#000000" name="CreateDecimals">
+      <bpmn2:extensionElements>
+        <drools:metaData name="elementname">
+          <drools:metaValue><![CDATA[CreateDecimals]]></drools:metaValue>
+        </drools:metaData>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>_BB16F39D-011B-4DCB-B51D-98660336D141</bpmn2:incoming>
+      <bpmn2:outgoing>_C32A15F8-55AC-44CE-81A2-63A76C7632A7</bpmn2:outgoing>
+      <bpmn2:ioSpecification id="_CdZgPwHbEeivuLvr3kMGPw">
+        <bpmn2:dataInput id="_CE1F9291-085D-46DE-ABDB-77CF1B333391_TaskNameInputX" drools:dtype="String" itemSubjectRef="__CE1F9291-085D-46DE-ABDB-77CF1B333391_TaskNameInputXItem" name="TaskName"/>
+        <bpmn2:dataInput id="_CE1F9291-085D-46DE-ABDB-77CF1B333391_listsInputX" drools:dtype="com.myteam.lists.Lists" itemSubjectRef="__CE1F9291-085D-46DE-ABDB-77CF1B333391_listsInputXItem" name="lists"/>
+        <bpmn2:dataInput id="_CE1F9291-085D-46DE-ABDB-77CF1B333391_SkippableInputX" drools:dtype="Object" itemSubjectRef="__CE1F9291-085D-46DE-ABDB-77CF1B333391_SkippableInputXItem" name="Skippable"/>
+        <bpmn2:dataOutput id="_CE1F9291-085D-46DE-ABDB-77CF1B333391_listsOutputX" drools:dtype="com.myteam.lists.Lists" itemSubjectRef="__CE1F9291-085D-46DE-ABDB-77CF1B333391_listsOutputXItem" name="lists"/>
+        <bpmn2:inputSet id="_CdZgQAHbEeivuLvr3kMGPw">
+          <bpmn2:dataInputRefs>_CE1F9291-085D-46DE-ABDB-77CF1B333391_listsInputX</bpmn2:dataInputRefs>
+          <bpmn2:dataInputRefs>_CE1F9291-085D-46DE-ABDB-77CF1B333391_SkippableInputX</bpmn2:dataInputRefs>
+          <bpmn2:dataInputRefs>_CE1F9291-085D-46DE-ABDB-77CF1B333391_TaskNameInputX</bpmn2:dataInputRefs>
+        </bpmn2:inputSet>
+        <bpmn2:outputSet id="_CdZgQQHbEeivuLvr3kMGPw">
+          <bpmn2:dataOutputRefs>_CE1F9291-085D-46DE-ABDB-77CF1B333391_listsOutputX</bpmn2:dataOutputRefs>
+        </bpmn2:outputSet>
+      </bpmn2:ioSpecification>
+      <bpmn2:dataInputAssociation id="_CdZgQgHbEeivuLvr3kMGPw">
+        <bpmn2:targetRef>_CE1F9291-085D-46DE-ABDB-77CF1B333391_TaskNameInputX</bpmn2:targetRef>
+        <bpmn2:assignment id="_CdZgQwHbEeivuLvr3kMGPw">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_CdZgRAHbEeivuLvr3kMGPw"><![CDATA[CreateDecimals]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_CdZgRQHbEeivuLvr3kMGPw">_CE1F9291-085D-46DE-ABDB-77CF1B333391_TaskNameInputX</bpmn2:to>
+        </bpmn2:assignment>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataInputAssociation id="_CdZgRgHbEeivuLvr3kMGPw">
+        <bpmn2:sourceRef>lists</bpmn2:sourceRef>
+        <bpmn2:targetRef>_CE1F9291-085D-46DE-ABDB-77CF1B333391_listsInputX</bpmn2:targetRef>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataInputAssociation id="_CdZgRwHbEeivuLvr3kMGPw">
+        <bpmn2:targetRef>_CE1F9291-085D-46DE-ABDB-77CF1B333391_SkippableInputX</bpmn2:targetRef>
+        <bpmn2:assignment id="_CdZgSAHbEeivuLvr3kMGPw">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_CdZgSQHbEeivuLvr3kMGPw">true</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_CdZgSgHbEeivuLvr3kMGPw">_CE1F9291-085D-46DE-ABDB-77CF1B333391_SkippableInputX</bpmn2:to>
+        </bpmn2:assignment>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataOutputAssociation id="_CdZgSwHbEeivuLvr3kMGPw">
+        <bpmn2:sourceRef>_CE1F9291-085D-46DE-ABDB-77CF1B333391_listsOutputX</bpmn2:sourceRef>
+        <bpmn2:targetRef>lists</bpmn2:targetRef>
+      </bpmn2:dataOutputAssociation>
+      <bpmn2:potentialOwner id="_CdZgTAHbEeivuLvr3kMGPw">
+        <bpmn2:resourceAssignmentExpression id="_CdZgTQHbEeivuLvr3kMGPw">
+          <bpmn2:formalExpression id="_CdZgTgHbEeivuLvr3kMGPw">katy</bpmn2:formalExpression>
+        </bpmn2:resourceAssignmentExpression>
+      </bpmn2:potentialOwner>
+    </bpmn2:userTask>
+    <bpmn2:sequenceFlow id="_BB16F39D-011B-4DCB-B51D-98660336D141" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_7F8BADB8-90B7-41FD-8FE9-44373F358A35" targetRef="_CE1F9291-085D-46DE-ABDB-77CF1B333391"/>
+    <bpmn2:userTask id="_E7B9BB71-6A2D-491F-A697-F61975A4273A" drools:selectable="true" drools:scriptFormat="http://www.java.com/java" color:background-color="#fafad2" color:border-color="#000000" color:color="#000000" name="CreateDates">
+      <bpmn2:extensionElements>
+        <drools:metaData name="elementname">
+          <drools:metaValue><![CDATA[CreateDates]]></drools:metaValue>
+        </drools:metaData>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>_C32A15F8-55AC-44CE-81A2-63A76C7632A7</bpmn2:incoming>
+      <bpmn2:outgoing>_E77A708D-498C-4EF6-B371-5DBBE1DD2321</bpmn2:outgoing>
+      <bpmn2:ioSpecification id="_CdZgTwHbEeivuLvr3kMGPw">
+        <bpmn2:dataInput id="_E7B9BB71-6A2D-491F-A697-F61975A4273A_TaskNameInputX" drools:dtype="String" itemSubjectRef="__E7B9BB71-6A2D-491F-A697-F61975A4273A_TaskNameInputXItem" name="TaskName"/>
+        <bpmn2:dataInput id="_E7B9BB71-6A2D-491F-A697-F61975A4273A_listsInputX" drools:dtype="com.myteam.lists.Lists" itemSubjectRef="__E7B9BB71-6A2D-491F-A697-F61975A4273A_listsInputXItem" name="lists"/>
+        <bpmn2:dataInput id="_E7B9BB71-6A2D-491F-A697-F61975A4273A_SkippableInputX" drools:dtype="Object" itemSubjectRef="__E7B9BB71-6A2D-491F-A697-F61975A4273A_SkippableInputXItem" name="Skippable"/>
+        <bpmn2:dataOutput id="_E7B9BB71-6A2D-491F-A697-F61975A4273A_listsOutputX" drools:dtype="com.myteam.lists.Lists" itemSubjectRef="__E7B9BB71-6A2D-491F-A697-F61975A4273A_listsOutputXItem" name="lists"/>
+        <bpmn2:inputSet id="_CdZgUAHbEeivuLvr3kMGPw">
+          <bpmn2:dataInputRefs>_E7B9BB71-6A2D-491F-A697-F61975A4273A_listsInputX</bpmn2:dataInputRefs>
+          <bpmn2:dataInputRefs>_E7B9BB71-6A2D-491F-A697-F61975A4273A_SkippableInputX</bpmn2:dataInputRefs>
+          <bpmn2:dataInputRefs>_E7B9BB71-6A2D-491F-A697-F61975A4273A_TaskNameInputX</bpmn2:dataInputRefs>
+        </bpmn2:inputSet>
+        <bpmn2:outputSet id="_CdZgUQHbEeivuLvr3kMGPw">
+          <bpmn2:dataOutputRefs>_E7B9BB71-6A2D-491F-A697-F61975A4273A_listsOutputX</bpmn2:dataOutputRefs>
+        </bpmn2:outputSet>
+      </bpmn2:ioSpecification>
+      <bpmn2:dataInputAssociation id="_CdZgUgHbEeivuLvr3kMGPw">
+        <bpmn2:targetRef>_E7B9BB71-6A2D-491F-A697-F61975A4273A_TaskNameInputX</bpmn2:targetRef>
+        <bpmn2:assignment id="_CdZgUwHbEeivuLvr3kMGPw">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_CdZgVAHbEeivuLvr3kMGPw"><![CDATA[CreateDates]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_CdZgVQHbEeivuLvr3kMGPw">_E7B9BB71-6A2D-491F-A697-F61975A4273A_TaskNameInputX</bpmn2:to>
+        </bpmn2:assignment>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataInputAssociation id="_CdZgVgHbEeivuLvr3kMGPw">
+        <bpmn2:sourceRef>lists</bpmn2:sourceRef>
+        <bpmn2:targetRef>_E7B9BB71-6A2D-491F-A697-F61975A4273A_listsInputX</bpmn2:targetRef>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataInputAssociation id="_CdZgVwHbEeivuLvr3kMGPw">
+        <bpmn2:targetRef>_E7B9BB71-6A2D-491F-A697-F61975A4273A_SkippableInputX</bpmn2:targetRef>
+        <bpmn2:assignment id="_CdZgWAHbEeivuLvr3kMGPw">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_CdZgWQHbEeivuLvr3kMGPw">true</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_CdZgWgHbEeivuLvr3kMGPw">_E7B9BB71-6A2D-491F-A697-F61975A4273A_SkippableInputX</bpmn2:to>
+        </bpmn2:assignment>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataOutputAssociation id="_CdZgWwHbEeivuLvr3kMGPw">
+        <bpmn2:sourceRef>_E7B9BB71-6A2D-491F-A697-F61975A4273A_listsOutputX</bpmn2:sourceRef>
+        <bpmn2:targetRef>lists</bpmn2:targetRef>
+      </bpmn2:dataOutputAssociation>
+      <bpmn2:potentialOwner id="_CdZgXAHbEeivuLvr3kMGPw">
+        <bpmn2:resourceAssignmentExpression id="_CdZgXQHbEeivuLvr3kMGPw">
+          <bpmn2:formalExpression id="_CdZgXgHbEeivuLvr3kMGPw">katy</bpmn2:formalExpression>
+        </bpmn2:resourceAssignmentExpression>
+      </bpmn2:potentialOwner>
+    </bpmn2:userTask>
+    <bpmn2:sequenceFlow id="_C32A15F8-55AC-44CE-81A2-63A76C7632A7" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_CE1F9291-085D-46DE-ABDB-77CF1B333391" targetRef="_E7B9BB71-6A2D-491F-A697-F61975A4273A"/>
+    <bpmn2:userTask id="_146470E0-FB05-4A52-B6A0-604F0A270153" drools:selectable="true" drools:scriptFormat="http://www.java.com/java" color:background-color="#fafad2" color:border-color="#000000" color:color="#000000" name="CreateAll">
+      <bpmn2:extensionElements>
+        <drools:metaData name="elementname">
+          <drools:metaValue><![CDATA[CreateAll]]></drools:metaValue>
+        </drools:metaData>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>_E77A708D-498C-4EF6-B371-5DBBE1DD2321</bpmn2:incoming>
+      <bpmn2:outgoing>_FFB0955A-0A33-483A-B356-45490BEEE84D</bpmn2:outgoing>
+      <bpmn2:ioSpecification id="_CdZgXwHbEeivuLvr3kMGPw">
+        <bpmn2:dataInput id="_146470E0-FB05-4A52-B6A0-604F0A270153_TaskNameInputX" drools:dtype="String" itemSubjectRef="__146470E0-FB05-4A52-B6A0-604F0A270153_TaskNameInputXItem" name="TaskName"/>
+        <bpmn2:dataInput id="_146470E0-FB05-4A52-B6A0-604F0A270153_listsInputX" drools:dtype="com.myteam.lists.Lists" itemSubjectRef="__146470E0-FB05-4A52-B6A0-604F0A270153_listsInputXItem" name="lists"/>
+        <bpmn2:dataInput id="_146470E0-FB05-4A52-B6A0-604F0A270153_SkippableInputX" drools:dtype="Object" itemSubjectRef="__146470E0-FB05-4A52-B6A0-604F0A270153_SkippableInputXItem" name="Skippable"/>
+        <bpmn2:dataOutput id="_146470E0-FB05-4A52-B6A0-604F0A270153_listsOutputX" drools:dtype="com.myteam.lists.Lists" itemSubjectRef="__146470E0-FB05-4A52-B6A0-604F0A270153_listsOutputXItem" name="lists"/>
+        <bpmn2:inputSet id="_CdZgYAHbEeivuLvr3kMGPw">
+          <bpmn2:dataInputRefs>_146470E0-FB05-4A52-B6A0-604F0A270153_listsInputX</bpmn2:dataInputRefs>
+          <bpmn2:dataInputRefs>_146470E0-FB05-4A52-B6A0-604F0A270153_SkippableInputX</bpmn2:dataInputRefs>
+          <bpmn2:dataInputRefs>_146470E0-FB05-4A52-B6A0-604F0A270153_TaskNameInputX</bpmn2:dataInputRefs>
+        </bpmn2:inputSet>
+        <bpmn2:outputSet id="_CdZgYQHbEeivuLvr3kMGPw">
+          <bpmn2:dataOutputRefs>_146470E0-FB05-4A52-B6A0-604F0A270153_listsOutputX</bpmn2:dataOutputRefs>
+        </bpmn2:outputSet>
+      </bpmn2:ioSpecification>
+      <bpmn2:dataInputAssociation id="_CdZgYgHbEeivuLvr3kMGPw">
+        <bpmn2:targetRef>_146470E0-FB05-4A52-B6A0-604F0A270153_TaskNameInputX</bpmn2:targetRef>
+        <bpmn2:assignment id="_CdZgYwHbEeivuLvr3kMGPw">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_CdZgZAHbEeivuLvr3kMGPw"><![CDATA[CreateAll]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_CdZgZQHbEeivuLvr3kMGPw">_146470E0-FB05-4A52-B6A0-604F0A270153_TaskNameInputX</bpmn2:to>
+        </bpmn2:assignment>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataInputAssociation id="_CdZgZgHbEeivuLvr3kMGPw">
+        <bpmn2:sourceRef>lists</bpmn2:sourceRef>
+        <bpmn2:targetRef>_146470E0-FB05-4A52-B6A0-604F0A270153_listsInputX</bpmn2:targetRef>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataInputAssociation id="_CdZgZwHbEeivuLvr3kMGPw">
+        <bpmn2:targetRef>_146470E0-FB05-4A52-B6A0-604F0A270153_SkippableInputX</bpmn2:targetRef>
+        <bpmn2:assignment id="_CdZgaAHbEeivuLvr3kMGPw">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_CdZgaQHbEeivuLvr3kMGPw">true</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_CdZgagHbEeivuLvr3kMGPw">_146470E0-FB05-4A52-B6A0-604F0A270153_SkippableInputX</bpmn2:to>
+        </bpmn2:assignment>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataOutputAssociation id="_CdZgawHbEeivuLvr3kMGPw">
+        <bpmn2:sourceRef>_146470E0-FB05-4A52-B6A0-604F0A270153_listsOutputX</bpmn2:sourceRef>
+        <bpmn2:targetRef>lists</bpmn2:targetRef>
+      </bpmn2:dataOutputAssociation>
+      <bpmn2:potentialOwner id="_CdZgbAHbEeivuLvr3kMGPw">
+        <bpmn2:resourceAssignmentExpression id="_CdZgbQHbEeivuLvr3kMGPw">
+          <bpmn2:formalExpression id="_CdZgbgHbEeivuLvr3kMGPw">katy</bpmn2:formalExpression>
+        </bpmn2:resourceAssignmentExpression>
+      </bpmn2:potentialOwner>
+    </bpmn2:userTask>
+    <bpmn2:sequenceFlow id="_E77A708D-498C-4EF6-B371-5DBBE1DD2321" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_E7B9BB71-6A2D-491F-A697-F61975A4273A" targetRef="_146470E0-FB05-4A52-B6A0-604F0A270153"/>
+    <bpmn2:endEvent id="_28465B87-D870-4C7A-B749-169F4A680E04" drools:selectable="true" color:background-color="#ff6347" color:border-color="#000000" color:color="#000000" name="">
+      <bpmn2:extensionElements>
+        <drools:metaData name="elementname">
+          <drools:metaValue><![CDATA[]]></drools:metaValue>
+        </drools:metaData>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>_FFB0955A-0A33-483A-B356-45490BEEE84D</bpmn2:incoming>
+    </bpmn2:endEvent>
+    <bpmn2:sequenceFlow id="_FFB0955A-0A33-483A-B356-45490BEEE84D" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_146470E0-FB05-4A52-B6A0-604F0A270153" targetRef="_28465B87-D870-4C7A-B749-169F4A680E04"/>
+  </bpmn2:process>
+  <bpmndi:BPMNDiagram id="_CdZgbwHbEeivuLvr3kMGPw">
+    <bpmndi:BPMNPlane id="_CdZgcAHbEeivuLvr3kMGPw" bpmnElement="CreationListsProcess">
+      <bpmndi:BPMNShape id="_CdZgcQHbEeivuLvr3kMGPw" bpmnElement="processStartEvent">
+        <dc:Bounds height="30.0" width="30.0" x="120.0" y="165.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_CdZgcgHbEeivuLvr3kMGPw" bpmnElement="_09BF4DE1-9A9B-4964-8718-9A73F688E9FE">
+        <dc:Bounds height="80.0" width="100.0" x="195.0" y="140.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_CdZgcwHbEeivuLvr3kMGPw" bpmnElement="_7F8BADB8-90B7-41FD-8FE9-44373F358A35">
+        <dc:Bounds height="80.0" width="100.0" x="345.0" y="140.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_CdZgdAHbEeivuLvr3kMGPw" bpmnElement="_CE1F9291-085D-46DE-ABDB-77CF1B333391">
+        <dc:Bounds height="80.0" width="100.0" x="480.0" y="140.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_CdZgdQHbEeivuLvr3kMGPw" bpmnElement="_E7B9BB71-6A2D-491F-A697-F61975A4273A">
+        <dc:Bounds height="80.0" width="100.0" x="630.0" y="140.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_CdZgdgHbEeivuLvr3kMGPw" bpmnElement="_146470E0-FB05-4A52-B6A0-604F0A270153">
+        <dc:Bounds height="80.0" width="100.0" x="765.0" y="140.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_CdZgdwHbEeivuLvr3kMGPw" bpmnElement="_28465B87-D870-4C7A-B749-169F4A680E04">
+        <dc:Bounds height="28.0" width="28.0" x="910.0" y="166.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="_CdZgeAHbEeivuLvr3kMGPw" bpmnElement="_8CEBA2CB-6F1E-46D1-841C-D4F7753D61C8" sourceElement="_CdZgcQHbEeivuLvr3kMGPw" targetElement="_CdZgcgHbEeivuLvr3kMGPw">
+        <di:waypoint xsi:type="dc:Point" x="135.0" y="180.0"/>
+        <di:waypoint xsi:type="dc:Point" x="245.0" y="180.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="_CdZgeQHbEeivuLvr3kMGPw" bpmnElement="_872E7E5A-4C9B-44F3-8B4C-B942B8E0C4DF" sourceElement="_CdZgcgHbEeivuLvr3kMGPw" targetElement="_CdZgcwHbEeivuLvr3kMGPw">
+        <di:waypoint xsi:type="dc:Point" x="245.0" y="180.0"/>
+        <di:waypoint xsi:type="dc:Point" x="395.0" y="180.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="_CdZgegHbEeivuLvr3kMGPw" bpmnElement="_BB16F39D-011B-4DCB-B51D-98660336D141" sourceElement="_CdZgcwHbEeivuLvr3kMGPw" targetElement="_CdZgdAHbEeivuLvr3kMGPw">
+        <di:waypoint xsi:type="dc:Point" x="395.0" y="180.0"/>
+        <di:waypoint xsi:type="dc:Point" x="530.0" y="180.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="_CdZgewHbEeivuLvr3kMGPw" bpmnElement="_C32A15F8-55AC-44CE-81A2-63A76C7632A7" sourceElement="_CdZgdAHbEeivuLvr3kMGPw" targetElement="_CdZgdQHbEeivuLvr3kMGPw">
+        <di:waypoint xsi:type="dc:Point" x="530.0" y="180.0"/>
+        <di:waypoint xsi:type="dc:Point" x="680.0" y="180.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="_CdZgfAHbEeivuLvr3kMGPw" bpmnElement="_E77A708D-498C-4EF6-B371-5DBBE1DD2321" sourceElement="_CdZgdQHbEeivuLvr3kMGPw" targetElement="_CdZgdgHbEeivuLvr3kMGPw">
+        <di:waypoint xsi:type="dc:Point" x="680.0" y="180.0"/>
+        <di:waypoint xsi:type="dc:Point" x="815.0" y="180.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="_CdZgfQHbEeivuLvr3kMGPw" bpmnElement="_FFB0955A-0A33-483A-B356-45490BEEE84D" sourceElement="_CdZgdgHbEeivuLvr3kMGPw" targetElement="_CdZgdwHbEeivuLvr3kMGPw">
+        <di:waypoint xsi:type="dc:Point" x="815.0" y="180.0"/>
+        <di:waypoint xsi:type="dc:Point" x="924.0" y="180.0"/>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+  <bpmn2:relationship id="_CdZgfgHbEeivuLvr3kMGPw" type="BPSimData">
+    <bpmn2:extensionElements>
+      <bpsim:BPSimData>
+        <bpsim:Scenario xsi:type="bpsim:Scenario" id="default" name="Simulationscenario">
+          <bpsim:ScenarioParameters xsi:type="bpsim:ScenarioParameters" baseTimeUnit="min"/>
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_09BF4DE1-9A9B-4964-8718-9A73F688E9FE" id="_CdZgfwHbEeivuLvr3kMGPw">
+            <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
+              <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
+                <bpsim:UniformDistribution max="10.0" min="5.0"/>
+              </bpsim:ProcessingTime>
+            </bpsim:TimeParameters>
+            <bpsim:ResourceParameters xsi:type="bpsim:ResourceParameters">
+              <bpsim:Availability xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="8.0"/>
+              </bpsim:Availability>
+              <bpsim:Quantity xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="1.0"/>
+              </bpsim:Quantity>
+            </bpsim:ResourceParameters>
+            <bpsim:CostParameters xsi:type="bpsim:CostParameters">
+              <bpsim:UnitCost xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="0.0"/>
+              </bpsim:UnitCost>
+            </bpsim:CostParameters>
+          </bpsim:ElementParameters>
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_146470E0-FB05-4A52-B6A0-604F0A270153" id="_CdZggAHbEeivuLvr3kMGPw">
+            <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
+              <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
+                <bpsim:UniformDistribution max="10.0" min="5.0"/>
+              </bpsim:ProcessingTime>
+            </bpsim:TimeParameters>
+            <bpsim:ResourceParameters xsi:type="bpsim:ResourceParameters">
+              <bpsim:Availability xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="8.0"/>
+              </bpsim:Availability>
+              <bpsim:Quantity xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="1.0"/>
+              </bpsim:Quantity>
+            </bpsim:ResourceParameters>
+            <bpsim:CostParameters xsi:type="bpsim:CostParameters">
+              <bpsim:UnitCost xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="0.0"/>
+              </bpsim:UnitCost>
+            </bpsim:CostParameters>
+          </bpsim:ElementParameters>
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_C32A15F8-55AC-44CE-81A2-63A76C7632A7" id="_CdZggQHbEeivuLvr3kMGPw">
+            <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
+              <bpsim:Probability xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="100.0"/>
+              </bpsim:Probability>
+            </bpsim:ControlParameters>
+          </bpsim:ElementParameters>
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_E7B9BB71-6A2D-491F-A697-F61975A4273A" id="_CdZgggHbEeivuLvr3kMGPw">
+            <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
+              <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
+                <bpsim:UniformDistribution max="10.0" min="5.0"/>
+              </bpsim:ProcessingTime>
+            </bpsim:TimeParameters>
+            <bpsim:ResourceParameters xsi:type="bpsim:ResourceParameters">
+              <bpsim:Availability xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="8.0"/>
+              </bpsim:Availability>
+              <bpsim:Quantity xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="1.0"/>
+              </bpsim:Quantity>
+            </bpsim:ResourceParameters>
+            <bpsim:CostParameters xsi:type="bpsim:CostParameters">
+              <bpsim:UnitCost xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="0.0"/>
+              </bpsim:UnitCost>
+            </bpsim:CostParameters>
+          </bpsim:ElementParameters>
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_28465B87-D870-4C7A-B749-169F4A680E04" id="_CdZggwHbEeivuLvr3kMGPw">
+            <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
+              <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
+                <bpsim:UniformDistribution max="10.0" min="5.0"/>
+              </bpsim:ProcessingTime>
+            </bpsim:TimeParameters>
+          </bpsim:ElementParameters>
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_BB16F39D-011B-4DCB-B51D-98660336D141" id="_CdZghAHbEeivuLvr3kMGPw">
+            <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
+              <bpsim:Probability xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="100.0"/>
+              </bpsim:Probability>
+            </bpsim:ControlParameters>
+          </bpsim:ElementParameters>
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="processStartEvent" id="_CdZghQHbEeivuLvr3kMGPw">
+            <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
+              <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
+                <bpsim:UniformDistribution max="10.0" min="5.0"/>
+              </bpsim:ProcessingTime>
+            </bpsim:TimeParameters>
+            <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
+              <bpsim:Probability xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="100.0"/>
+              </bpsim:Probability>
+            </bpsim:ControlParameters>
+          </bpsim:ElementParameters>
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_CE1F9291-085D-46DE-ABDB-77CF1B333391" id="_CdZghgHbEeivuLvr3kMGPw">
+            <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
+              <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
+                <bpsim:UniformDistribution max="10.0" min="5.0"/>
+              </bpsim:ProcessingTime>
+            </bpsim:TimeParameters>
+            <bpsim:ResourceParameters xsi:type="bpsim:ResourceParameters">
+              <bpsim:Availability xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="8.0"/>
+              </bpsim:Availability>
+              <bpsim:Quantity xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="1.0"/>
+              </bpsim:Quantity>
+            </bpsim:ResourceParameters>
+            <bpsim:CostParameters xsi:type="bpsim:CostParameters">
+              <bpsim:UnitCost xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="0.0"/>
+              </bpsim:UnitCost>
+            </bpsim:CostParameters>
+          </bpsim:ElementParameters>
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_FFB0955A-0A33-483A-B356-45490BEEE84D" id="_CdZghwHbEeivuLvr3kMGPw">
+            <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
+              <bpsim:Probability xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="100.0"/>
+              </bpsim:Probability>
+            </bpsim:ControlParameters>
+          </bpsim:ElementParameters>
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_E77A708D-498C-4EF6-B371-5DBBE1DD2321" id="_CdZgiAHbEeivuLvr3kMGPw">
+            <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
+              <bpsim:Probability xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="100.0"/>
+              </bpsim:Probability>
+            </bpsim:ControlParameters>
+          </bpsim:ElementParameters>
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_872E7E5A-4C9B-44F3-8B4C-B942B8E0C4DF" id="_CdZgiQHbEeivuLvr3kMGPw">
+            <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
+              <bpsim:Probability xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="100.0"/>
+              </bpsim:Probability>
+            </bpsim:ControlParameters>
+          </bpsim:ElementParameters>
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_7F8BADB8-90B7-41FD-8FE9-44373F358A35" id="_CdZgigHbEeivuLvr3kMGPw">
+            <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
+              <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
+                <bpsim:UniformDistribution max="10.0" min="5.0"/>
+              </bpsim:ProcessingTime>
+            </bpsim:TimeParameters>
+            <bpsim:ResourceParameters xsi:type="bpsim:ResourceParameters">
+              <bpsim:Availability xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="8.0"/>
+              </bpsim:Availability>
+              <bpsim:Quantity xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="1.0"/>
+              </bpsim:Quantity>
+            </bpsim:ResourceParameters>
+            <bpsim:CostParameters xsi:type="bpsim:CostParameters">
+              <bpsim:UnitCost xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="0.0"/>
+              </bpsim:UnitCost>
+            </bpsim:CostParameters>
+          </bpsim:ElementParameters>
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_8CEBA2CB-6F1E-46D1-841C-D4F7753D61C8" id="_CdZgiwHbEeivuLvr3kMGPw">
+            <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
+              <bpsim:Probability xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="100.0"/>
+              </bpsim:Probability>
+            </bpsim:ControlParameters>
+          </bpsim:ElementParameters>
+        </bpsim:Scenario>
+      </bpsim:BPSimData>
+    </bpmn2:extensionElements>
+    <bpmn2:source>_CdY5IAHbEeivuLvr3kMGPw</bpmn2:source>
+    <bpmn2:target>_CdY5IAHbEeivuLvr3kMGPw</bpmn2:target>
+  </bpmn2:relationship>
+</bpmn2:definitions>
