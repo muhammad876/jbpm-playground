@@ -205,7 +205,7 @@
       "binding": "listOfIntegers",
       "standaloneClassName": "java.lang.Integer",
       "id": "field_79028",
-      "code": "LOVSelection",
+      "code": "MultipleSelector",
       "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
     },
     {
@@ -228,7 +228,7 @@
       "helpMessage": "",
       "binding": "listOfBigIntegers",
       "standaloneClassName": "java.math.BigInteger",
-      "code": "LOVSelection",
+      "code": "MultipleSelector",
       "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
     },
     {
@@ -251,7 +251,7 @@
       "helpMessage": "",
       "binding": "listOfBytes",
       "standaloneClassName": "java.lang.Byte",
-      "code": "LOVSelection",
+      "code": "MultipleSelector",
       "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
     },
     {
@@ -274,7 +274,7 @@
       "helpMessage": "",
       "binding": "listOfLong",
       "standaloneClassName": "java.lang.Long",
-      "code": "LOVSelection",
+      "code": "MultipleSelector",
       "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
     },
     {
@@ -297,7 +297,7 @@
       "helpMessage": "",
       "binding": "listOfShort",
       "standaloneClassName": "java.lang.Short",
-      "code": "LOVSelection",
+      "code": "MultipleSelector",
       "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
     }
   ],

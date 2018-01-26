@@ -205,7 +205,7 @@
       "helpMessage": "",
       "binding": "listOfStrings",
       "standaloneClassName": "java.lang.String",
-      "code": "LOVSelection",
+      "code": "MultipleSelector",
       "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.StringLOVFieldDefinition"
     },
     {
@@ -228,7 +228,7 @@
       "helpMessage": "",
       "binding": "listOfCharacters",
       "standaloneClassName": "java.lang.Character",
-      "code": "LOVSelection",
+      "code": "MultipleSelector",
       "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.CharacterLOVFieldDefinition"
     },
     {
@@ -249,7 +249,7 @@
       "helpMessage": "",
       "binding": "listOfBooleans",
       "standaloneClassName": "java.lang.Boolean",
-      "code": "LOVSelection",
+      "code": "MultipleSelector",
       "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.BooleanLOVFieldDefinition"
     }
   ],

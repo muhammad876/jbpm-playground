@@ -205,7 +205,7 @@
       "binding": "listOfBigDecimals",
       "standaloneClassName": "java.math.BigDecimal",
       "id": "field_9001",
-      "code": "LOVSelection",
+      "code": "MultipleSelector",
       "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DecimalLOVFieldDefinition"
     },
     {
@@ -228,7 +228,7 @@
       "binding": "listOfDoubles",
       "standaloneClassName": "java.lang.Double",
       "id": "field_97974",
-      "code": "LOVSelection",
+      "code": "MultipleSelector",
       "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DecimalLOVFieldDefinition"
     },
     {
@@ -251,7 +251,7 @@
       "binding": "listOfFloats",
       "standaloneClassName": "java.lang.Float",
       "id": "field_92523",
-      "code": "LOVSelection",
+      "code": "MultipleSelector",
       "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DecimalLOVFieldDefinition"
     }
   ],

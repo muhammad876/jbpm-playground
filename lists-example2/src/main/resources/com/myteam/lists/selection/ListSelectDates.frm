@@ -205,7 +205,7 @@
       "binding": "listOfDates",
       "standaloneClassName": "java.util.Date",
       "id": "field_1683",
-      "code": "LOVSelection",
+      "code": "MultipleSelector",
       "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
     },
     {
@@ -227,7 +227,7 @@
       "helpMessage": "",
       "standaloneClassName": "java.time.LocalDate",
       "id": "field_5392",
-      "code": "LOVSelection",
+      "code": "MultipleSelector",
       "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
     },
     {
@@ -249,7 +249,7 @@
       "helpMessage": "",
       "standaloneClassName": "java.time.LocalDateTime",
       "id": "field_85",
-      "code": "LOVSelection",
+      "code": "MultipleSelector",
       "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
     },
     {
@@ -272,7 +272,7 @@
       "binding": "listOfLocalTime",
       "standaloneClassName": "java.time.LocalTime",
       "id": "field_0972",
-      "code": "LOVSelection",
+      "code": "MultipleSelector",
       "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
     },
     {
@@ -295,7 +295,7 @@
       "binding": "listOfOffsetDateTIme",
       "standaloneClassName": "java.time.OffsetDateTime",
       "id": "field_7954",
-      "code": "LOVSelection",
+      "code": "MultipleSelector",
       "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
     }
   ],
