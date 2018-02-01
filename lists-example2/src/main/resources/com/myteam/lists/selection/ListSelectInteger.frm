@@ -206,7 +206,7 @@
       "standaloneClassName": "java.lang.Integer",
       "id": "field_79028",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -229,7 +229,7 @@
       "binding": "listOfBigIntegers",
       "standaloneClassName": "java.math.BigInteger",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -252,7 +252,7 @@
       "binding": "listOfBytes",
       "standaloneClassName": "java.lang.Byte",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -275,7 +275,7 @@
       "binding": "listOfLong",
       "standaloneClassName": "java.lang.Long",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -298,7 +298,7 @@
       "binding": "listOfShort",
       "standaloneClassName": "java.lang.Short",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerMultipleSelectorFieldDefinition"
     }
   ],
   "layoutTemplate": {

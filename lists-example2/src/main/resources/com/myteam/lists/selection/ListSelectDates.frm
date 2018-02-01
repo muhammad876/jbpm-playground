@@ -206,7 +206,7 @@
       "standaloneClassName": "java.util.Date",
       "id": "field_1683",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -228,7 +228,7 @@
       "standaloneClassName": "java.time.LocalDate",
       "id": "field_5392",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -250,7 +250,7 @@
       "standaloneClassName": "java.time.LocalDateTime",
       "id": "field_85",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -273,7 +273,7 @@
       "standaloneClassName": "java.time.LocalTime",
       "id": "field_0972",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -296,7 +296,7 @@
       "standaloneClassName": "java.time.OffsetDateTime",
       "id": "field_7954",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateMultipleSelectorFieldDefinition"
     }
   ],
   "layoutTemplate": {

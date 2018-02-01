@@ -206,7 +206,7 @@
       "binding": "listOfStrings",
       "standaloneClassName": "java.lang.String",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.StringLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.StringMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -229,7 +229,7 @@
       "binding": "listOfCharacters",
       "standaloneClassName": "java.lang.Character",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.CharacterLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.CharacterMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -250,7 +250,7 @@
       "binding": "listOfBooleans",
       "standaloneClassName": "java.lang.Boolean",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.BooleanLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.BooleanMultipleSelectorFieldDefinition"
     }
   ],
   "layoutTemplate": {

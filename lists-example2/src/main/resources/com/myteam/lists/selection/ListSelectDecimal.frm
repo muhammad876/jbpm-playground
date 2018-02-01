@@ -206,7 +206,7 @@
       "standaloneClassName": "java.math.BigDecimal",
       "id": "field_9001",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DecimalLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DecimalMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -229,7 +229,7 @@
       "standaloneClassName": "java.lang.Double",
       "id": "field_97974",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DecimalLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DecimalMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -252,7 +252,7 @@
       "standaloneClassName": "java.lang.Float",
       "id": "field_92523",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DecimalLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DecimalMultipleSelectorFieldDefinition"
     }
   ],
   "layoutTemplate": {

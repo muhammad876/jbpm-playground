@@ -206,7 +206,7 @@
       "binding": "listOfStrings",
       "standaloneClassName": "java.lang.String",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.StringLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.StringMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -229,7 +229,7 @@
       "binding": "listOfCharacters",
       "standaloneClassName": "java.lang.Character",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.CharacterLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.CharacterMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -250,7 +250,7 @@
       "binding": "listOfBooleans",
       "standaloneClassName": "java.lang.Boolean",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.BooleanLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.BooleanMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -273,7 +273,7 @@
       "binding": "listOfIntegers",
       "standaloneClassName": "java.lang.Integer",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -296,7 +296,7 @@
       "binding": "listOfBigIntegers",
       "standaloneClassName": "java.math.BigInteger",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -319,7 +319,7 @@
       "binding": "listOfBytes",
       "standaloneClassName": "java.lang.Byte",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -342,7 +342,7 @@
       "binding": "listOfLong",
       "standaloneClassName": "java.lang.Long",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -365,7 +365,7 @@
       "binding": "listOfShort",
       "standaloneClassName": "java.lang.Short",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.IntegerMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -388,7 +388,7 @@
       "binding": "listOfBigDecimals",
       "standaloneClassName": "java.math.BigDecimal",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DecimalLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DecimalMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -411,7 +411,7 @@
       "binding": "listOfDoubles",
       "standaloneClassName": "java.lang.Double",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DecimalLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DecimalMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -434,7 +434,7 @@
       "binding": "listOfFloats",
       "standaloneClassName": "java.lang.Float",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DecimalLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DecimalMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -457,7 +457,7 @@
       "standaloneClassName": "java.util.Date",
       "id": "field_2835",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -480,7 +480,7 @@
       "binding": "listOfLocalDate",
       "standaloneClassName": "java.time.LocalDate",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -503,7 +503,7 @@
       "binding": "listOfLocalDateTiime",
       "standaloneClassName": "java.time.LocalDateTime",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -526,7 +526,7 @@
       "binding": "listOfLocalTime",
       "standaloneClassName": "java.time.LocalTime",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateMultipleSelectorFieldDefinition"
     },
     {
       "listOfValues": [
@@ -549,7 +549,7 @@
       "binding": "listOfOffsetDateTIme",
       "standaloneClassName": "java.time.OffsetDateTime",
       "code": "MultipleSelector",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateLOVFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.selector.impl.DateMultipleSelectorFieldDefinition"
     }
   ],
   "layoutTemplate": {
