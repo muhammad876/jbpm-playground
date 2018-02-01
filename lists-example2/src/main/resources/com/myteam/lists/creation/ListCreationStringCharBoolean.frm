@@ -197,7 +197,7 @@
       "binding": "listOfStrings",
       "standaloneClassName": "java.lang.String",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.StringMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.StringMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -211,7 +211,7 @@
       "binding": "listOfCharacters",
       "standaloneClassName": "java.lang.Character",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.CharacterMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.CharacterMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -225,7 +225,7 @@
       "binding": "listOfBooleans",
       "standaloneClassName": "java.lang.Boolean",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.BooleanMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.BooleanMultipleInputFieldDefinition"
     }
   ],
   "layoutTemplate": {

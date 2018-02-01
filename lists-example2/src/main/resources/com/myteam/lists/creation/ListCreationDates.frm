@@ -197,7 +197,7 @@
       "binding": "listOfDates",
       "standaloneClassName": "java.util.Date",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -211,7 +211,7 @@
       "binding": "listOfLocalDate",
       "standaloneClassName": "java.time.LocalDate",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -225,7 +225,7 @@
       "binding": "listOfLocalDateTiime",
       "standaloneClassName": "java.time.LocalDateTime",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -239,7 +239,7 @@
       "binding": "listOfLocalTime",
       "standaloneClassName": "java.time.LocalTime",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -253,7 +253,7 @@
       "binding": "listOfOffsetDateTIme",
       "standaloneClassName": "java.time.OffsetDateTime",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateMultipleInputFieldDefinition"
     }
   ],
   "layoutTemplate": {

@@ -197,7 +197,7 @@
       "binding": "listOfBigDecimals",
       "standaloneClassName": "java.math.BigDecimal",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DecimalMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DecimalMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -211,7 +211,7 @@
       "binding": "listOfDoubles",
       "standaloneClassName": "java.lang.Double",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DecimalMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DecimalMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -225,7 +225,7 @@
       "binding": "listOfFloats",
       "standaloneClassName": "java.lang.Float",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DecimalMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DecimalMultipleInputFieldDefinition"
     }
   ],
   "layoutTemplate": {

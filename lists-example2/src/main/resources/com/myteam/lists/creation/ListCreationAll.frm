@@ -197,7 +197,7 @@
       "binding": "listOfStrings",
       "standaloneClassName": "java.lang.String",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.StringMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.StringMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -211,7 +211,7 @@
       "binding": "listOfCharacters",
       "standaloneClassName": "java.lang.Character",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.CharacterMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.CharacterMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -225,7 +225,7 @@
       "binding": "listOfBooleans",
       "standaloneClassName": "java.lang.Boolean",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.BooleanMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.BooleanMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -239,7 +239,7 @@
       "binding": "listOfIntegers",
       "standaloneClassName": "java.lang.Integer",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -253,7 +253,7 @@
       "binding": "listOfBigIntegers",
       "standaloneClassName": "java.math.BigInteger",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -267,7 +267,7 @@
       "binding": "listOfBytes",
       "standaloneClassName": "java.lang.Byte",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -281,7 +281,7 @@
       "binding": "listOfLong",
       "standaloneClassName": "java.lang.Long",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -295,7 +295,7 @@
       "binding": "listOfShort",
       "standaloneClassName": "java.lang.Short",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -309,7 +309,7 @@
       "binding": "listOfBigDecimals",
       "standaloneClassName": "java.math.BigDecimal",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DecimalMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DecimalMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -323,7 +323,7 @@
       "binding": "listOfDoubles",
       "standaloneClassName": "java.lang.Double",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DecimalMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DecimalMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -337,7 +337,7 @@
       "binding": "listOfFloats",
       "standaloneClassName": "java.lang.Float",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DecimalMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DecimalMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -351,7 +351,7 @@
       "binding": "listOfDates",
       "standaloneClassName": "java.util.Date",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -365,7 +365,7 @@
       "binding": "listOfLocalDate",
       "standaloneClassName": "java.time.LocalDate",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -379,7 +379,7 @@
       "binding": "listOfLocalDateTiime",
       "standaloneClassName": "java.time.LocalDateTime",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -393,7 +393,7 @@
       "binding": "listOfLocalTime",
       "standaloneClassName": "java.time.LocalTime",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -407,7 +407,7 @@
       "binding": "listOfOffsetDateTIme",
       "standaloneClassName": "java.time.OffsetDateTime",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.DateMultipleInputFieldDefinition"
     }
   ],
   "layoutTemplate": {

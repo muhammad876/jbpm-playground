@@ -197,7 +197,7 @@
       "binding": "listOfIntegers",
       "standaloneClassName": "java.lang.Integer",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -211,7 +211,7 @@
       "binding": "listOfBigIntegers",
       "standaloneClassName": "java.math.BigInteger",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -225,7 +225,7 @@
       "binding": "listOfBytes",
       "standaloneClassName": "java.lang.Byte",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -239,7 +239,7 @@
       "binding": "listOfLong",
       "standaloneClassName": "java.lang.Long",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerMultipleInputFieldDefinition"
     },
     {
       "pageSize": 5,
@@ -253,7 +253,7 @@
       "binding": "listOfShort",
       "standaloneClassName": "java.lang.Short",
       "code": "MultipleInput",
-      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerMultipleInputInputFieldDefinition"
+      "serializedFieldClassName": "org.kie.workbench.common.forms.fields.shared.fieldTypes.basic.lists.input.impl.IntegerMultipleInputFieldDefinition"
     }
   ],
   "layoutTemplate": {
